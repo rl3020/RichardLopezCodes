@@ -1,0 +1,259 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Richard Lopez </title>
+  <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/index.css') }}" />
+</head>
+
+<body>
+    <!-- Navigation Bar-->
+    <div class="navigation-container">
+        <div class="title" > <a href="/"> Richard Lopez  </a></div>
+        <div class="links-container">
+            <div  class="link"><a id="projects-link" href="#projects">  &#9001; Projects  &#9002; </a></div>
+            <div  class="link"><a id="about-me-link"href="#about-me">   &#9001; About Me  &#9002; </a></div>
+            <div  class="link"><a id="contact-me-link" href="#contact-me">   &#9001; Contact / Resume  &#9002; </a></div>
+
+        </div>
+    </div>
+
+    <!-- Introduction with typewriter -->
+    <section class="introduction">
+        <!-- Text Content Container -->
+        <div class="text-content-container">
+            <div class="left-corner"></div>
+            <div id="text-container">
+                <!-- <span class="text-styling">
+                    Hi, my name is Richard Lopez  and I’m an aspiring Full Stack Software Engineer
+                </span> -->
+            </div>
+
+            <div id="rotating-div" class="outer-wrapper">
+                <div class="rotating-elements-container">
+                    <span class="inner-wrapper">
+                        <span class="rotating-element" style="color: lightgreen;">Python</span>
+                        <span class="rotating-element" style="color: red;">Java</span>
+                        <span class="rotating-element" style="color: yellow;">JavaScript</span>
+                        <span class="rotating-element" style="color: deepskyblue;">React</span>
+                        <span class="rotating-element" style="color: purple;">HTML/CSS</span>
+                        <span class="rotating-element" style="color: blue;">C</span>
+                    </span>
+                </div>
+            </div>
+            
+
+            <div class="right-corner"></div>
+        </div>
+    </section>
+
+    
+    <!-- Portfolio Projects Section -->
+    <div id="projects" class="portfolio-container" name="project-nav">
+
+        <!-- Portfolio section container -->
+
+        <!--  PROJECT: Cereal -->
+        <section class="portfolio-section">
+            <div class="section-name slide-from-left">
+                Portfolio
+            </div>
+            <div class="portfolio-content-container">
+                <div class="portfolio-left-content slide-from-left">
+                    <div class="portfolio-name">Columbia Build Lab, Cereal</div>
+                    <div class="portfolio-description">
+                        A front end project that animates sorting algorithms such as merge sort, insertion sort, and selection sort.
+                    </div>
+                    <button class="portfolio-button" onclick="window.open('https://github.com/rl3020/Cereal_Chrome_Extension')">See code here</button>
+                </div>
+                <div class="portfolio-right-content slide-from-right">
+
+                    <img class="cereal-extension-image1" src="../static/img/project-images/cereal-chrome-extension-1.png" alt="cereal chrome extension image">
+                    <img class="cereal-extension-image2" src="../static/img/project-images/cereal-chrome-extension-2.png" alt="cereal chrome extension image">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT: Sorting Algorithm Project -->
+        <section class="portfolio-section" >
+
+            <!-- Portfolio content container -->
+            <div class="portfolio-content-container" >
+                <!-- Left content container -->
+                <div class="portfolio-left-content slide-from-left">
+                    <div class="portfolio-name">Sorting Algorithm Visualizer</div>
+                    <div class="portfolio-description">
+                        A front end project that animates sorting algorithms such as merge sort, insertion sort, and selection sort.
+                    </div>
+                    <button class="portfolio-button" onclick="window.open('https://github.com/rl3020/SortingAlgorithms')" >See code here</button>
+                </div>
+
+                <!-- Right content container -->
+                <div class="portfolio-right-content slide-from-right">
+
+                    <img class="project-one-image" src="../static/img/project-images/sorting1.png" alt="sorting project">
+                    <img class="project-two-image" src="../static/img/project-images/sorting2.png" alt="project two">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT: Transparent Democracy Section -->
+        <section class="portfolio-section" >
+            <!-- Card Container -->
+            <div class="portfolio-content-container">
+                <div class="portfolio-left-content slide-from-left">
+                    <div class="portfolio-name">Transparent Democracy</div>
+                    <div class="portfolio-description">
+                        A web based application designed to create transparency between congress and the public. Usage of the ProPublica API to gather data about congressional roll call votes and other information.
+                    </div>
+                    <button class="portfolio-button" onclick="window.open('https://github.com/rl3020/TransparentDemocracy')">See code here</button>
+                </div>
+                <div class="portfolio-right-content slide-from-right">
+
+                    <img class="single-project-image" src="../static/img/project-images/transparent-democracy-img.png" alt="transparent democracy">
+
+                    
+                </div>
+            </div>
+        </section>
+    
+        <!-- TODO: Columbia FLI Resource Aggregator-->
+        <!--  
+        <section class="portfolio-section" >
+            <div class="portfolio-content-container">
+                <div class="portfolio-left-content slide-from-left">
+                    <div class="portfolio-name">Columbia FLI Resource Aggregator*</div>
+                    <div class="portfolio-description">
+                        A front end project that animates sorting algorithms such as merge sort, insertion sort, and selection sort.
+                    </div>
+                    <button class="portfolio-button">See code here</button>
+                </div>
+                <div class="portfolio-right-content slide-from-right">
+                    
+                </div>
+            </div>
+        </section>
+        -->
+    
+
+        <!-- PROJECT: Yolis and Nube Dog Grooming -->
+        <section class="portfolio-section">
+            <div class="portfolio-content-container">
+                <div class="portfolio-left-content slide-from-left">
+                    <div class="portfolio-name">Dog Grooming Website</div>
+                    <div class="portfolio-description">
+                        A front end project that animates sorting algorithms such as merge sort, insertion sort, and selection sort.
+                    </div>
+                    <button class="portfolio-button" onclick="window.open('https://github.com/rl3020/DogGroomingWebsite')">See code here</button>
+                </div>
+
+                <div class="portfolio-right-content slide-from-right">
+                    <img class="single-project-image" src="../static/img/project-images/yolis-nube-grooming.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    
+
+    <div id="about-me" class="about-me" name="about-me-nav">
+        <div class="section-name fade-in">
+            About me
+        </div>
+        <section class="about-me-section">
+            <div class="about-me-picture-container fade-in" >
+                <!-- Pictures HERE -->
+                <img class="img1" src="{{ url_for('static', filename='/img/ProfPic.jpg')}}" alt="richard lopez">
+            </div>
+            <div class="about-me-content-container fade-in">
+                <div class="about-me-title">Who I am ...</div>
+                <div class="about-me-description">
+                    Originally from Inglewood, California, Richard moved to the east coast when he was 15 to attend Choate Rosemary Hall, a private boarding school, on a full scholarship. He later moved to NYC to attend Columbia University where he is currently a senior studying Computer Science and Race and Ethnic Studies. 
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me-section">
+            <div class="about-me-picture-container fade-in">
+                <!-- Pictures HERE -->
+                <img class="img1" src="{{ url_for('static', filename='/img/running.jpg')}}" alt="richard lopez"> 
+                <img class="img2" src="{{ url_for('static', filename='/img/marathon-awards.jpg')}}" alt="richard lopez">    
+
+            </div>
+            <div class="about-me-content-container fade-in">
+                <div class="about-me-title">I am also...</div>
+                <div class="about-me-description">
+                    The first person in my family to attend college<br>
+                    A 3x marathoner, Los Angeles x 1,  San Francisco x 2 <br>
+                    A proud son of Mexican immigrants <br>
+                    A passionate programmer who wants a job.<br>                       
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact-me" class="contact-me fade-in">
+
+        <div class="resume-section">
+            <div class="contact-me-heading">Resume</div>
+            <div class="resume-description">
+                If you would like to learn more about me and my previous work experience, please see my resume.
+            </div>
+            <button class="resume-button" onclick="window.open('../static/PDF/Richard-Lopez-Resume.pdf')" >View My Resume</button>
+            
+        </div>
+        <div class="contact-me-section" name="contact-nav">
+            <div class="contact-me-heading-1">Contact Me</div>
+            <input class="input-border" type="text" id="name-input" placeholder="Name" >
+            <input class="input-border" type="text" id="email-input" placeholder="Your email address">
+            <textarea class="input-border" id="inquiry" cols="30" rows="10" placeholder="Inquiry"></textarea>
+            <div id="input-error" class="error-message">Please make sure to fill in all input areas and include valid email address*</div>
+            
+            <div class="submit-container">
+
+                <div id="submit-button">
+                    <button id="press-button-to-submit" class="submit">Submit</button>
+                    <div id="load" class="loading-screen">
+                        Sending...
+                    </div>
+                    <div id="send-success" class="successfully-sent-email">
+                        Sent <img class="checkmark" src="../static/img/tick.png" alt="checkmark">
+                    </div>
+                </div>
+                
+                <div class="description-container">
+                    <div class="text">Or reach out to me at rl3020@columbia.edu.</div>
+                    <div class="logo-container">
+                        <img class="logo" src="{{url_for('static', filename='img/GitHub-Mark-Light-64px.png') }}" alt="github" onclick="window.open('https://github.com/rl3020')">
+                        <img class="logo" src="{{url_for('static', filename='img/LI-In-Bug.png') }}" alt="linkedin" onclick="window.open('https://www.google.com')">
+                    </div>
+                </div>
+                    
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    
+
+    <footer>
+        
+        <div>&#169; Copyright<br></div>
+        <div>This website was built by Richard Lopez using HTML/CSS, JavaScript ES6, Python Flask </div>
+    
+    </footer>
+
+    <script src="{{ url_for('static', filename='Animate.js')}}"> </script>
+    <script src="{{ url_for('static', filename='TypeWriter.js')}}"> </script>
+    <script src="{{ url_for('static', filename='PageAnimations.js')}}"> </script>
+    <script src="{{ url_for('static', filename='index.js')}}"> </script>
+
+</body>
+
+</html>

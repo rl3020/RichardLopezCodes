@@ -5,7 +5,7 @@
 }
 
 :root{
-    --blue: aqua; 
+    --blue: aqua;/* rgb(20, 211, 202); */
     --black: #000;
     --white: #fff;
     --font-name: 'Noto Sans SC', sans-serif; 
@@ -314,16 +314,20 @@ a:visited{
 .portfolio-name{
     font-family: var(--font-name);
     font-size: 30px;
-    font-weight: 400;   
+    font-weight: 400;  
+    color: var(--blue);
+
 }
 
 .portfolio-description{
+    margin-top: 10px;
     font-family: var(--font-name);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .portfolio-button{
+    margin-top: 30px;
     background-color: rgba(0, 0, 0, 1);
     color: white;
     font-family: var(--font-name);

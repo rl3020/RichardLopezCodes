@@ -7,6 +7,7 @@ name = "pypi"
 flask = "*"
 yagmail = "*"
 python-dotenv = "*"
+gunicorn = "*"
 
 [dev-packages]
 

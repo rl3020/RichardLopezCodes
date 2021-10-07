@@ -37,6 +37,7 @@ def send_email():
     email = request.get_json()
     print("Email: ", email)
     credentials = get_credentials()
+    print(credentials)
 
     sender_email = credentials['sender_email']
     receiver_email = credentials['receiver_email']  # Enter receiver address

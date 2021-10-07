@@ -74,7 +74,7 @@ submit.onclick = async function(){
         let load = document.getElementById("load");
         load.style.display = "block";
 
-        let result = await fetch("http://localhost:5000/send_email/", settings);
+        let result = await fetch("https://richard-lopez-codes.herokuapp.com/send_email/", settings);
         load.style.display = "none";
 
         let sendSuccess = document.getElementById("send-success");

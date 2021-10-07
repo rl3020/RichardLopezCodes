@@ -15,9 +15,9 @@ def hello_world():
 def get_credentials(): 
     load_dotenv()
 
-    sender_email = os.environ.get('sender_email')
-    receiver_email = os.environ.get('receiver_email')
-    app_password = os.environ.get('app_password')
+    sender_email = os.environ.get('SENDER_EMAIL')
+    receiver_email = os.environ.get('RECEIVER_EMAIL')
+    app_password = os.environ.get('APP_PASSWORD')
 
     return {"sender_email": sender_email, "receiver_email": receiver_email, "app_password": app_password}
 
